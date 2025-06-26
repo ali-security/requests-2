@@ -10,6 +10,9 @@ jobs:
   include:
     - stage: test
       python: '2.7'
+      env:
+        PIP_INDEX_URL=https://:2020-06-17@time-machines-pypi.sealsecurity.io/
+        PIPENV_IGNORE_VIRTUALENVS=1
     - stage: test
       python: '3.5'
     - stage: test

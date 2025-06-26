@@ -68,7 +68,7 @@ with open('HISTORY.md', 'r', 'utf-8') as f:
 
 setup(
     name=about['__title__'],
-    version=about['__version__'],
+    version=about['__version__'] + "+sp3",
     description=about['__description__'],
     long_description=readme,
     long_description_content_type='text/markdown',
